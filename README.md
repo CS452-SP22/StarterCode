@@ -37,11 +37,11 @@ serve
 
 I need to be able to access your lab via the url scheme:
 
-`http://web.eecs.utk.edu/~NETID/YOUR_HASH/Lab#/Step#`
+`http://web.eecs.utk.edu/~NETID/YOUR_HASH/lab#/step#`
 
 So, my lab1, step 1 would be available via:
 
-`http://web.eecs.utk.edu/~pprovins/vexed_geiger/Lab1/Step1`
+`http://web.eecs.utk.edu/~pprovins/vexed_geiger/lab1/step1`
 
 Make sure your perms are right too!
 
@@ -50,7 +50,7 @@ Make sure your perms are right too!
 2) Change your hash directory permisions
 3) Whenever lab is due, copy files over for that step to your dir and 
 4) Give files read permission
-5) Give dirs execute permission (755 will allow another user to read contents, try visiting `http://web.eecs.utk.edu/~pprovins/vexed_geiger/Lab1` and you get a permission denied. This will keep other students/onlookers from guessing your hashed dir and stealing your brainpower).
+5) Give dirs execute permission (755 will allow another user to read contents, try visiting `http://web.eecs.utk.edu/~pprovins/vexed_geiger/lab1` and you get a permission denied. This will keep other students/onlookers from guessing your hashed dir and stealing your brainpower).
 6) Repeat 3, 4, 5 for each lab
 ```
 cd ~/webhome
@@ -76,11 +76,11 @@ git push origin master
 
 The code you edit will now push to the repo you have setup.
 
-### How can I easily track which Lab/Step that I am working on?
+### How can I easily track which lab/step that I am working on?
 
 Take a peak here: `https://git-scm.com/book/en/v2/Git-Basics-Tagging`
 
-When you are done with a step, you may tag it with an annotated tag _before you push_, `git tag -a lab1.step0 -m "Lab 1 Step 0 complete here"`
+When you are done with a step, you may tag it with an annotated tag _before you push_, `git tag -a lab1.step0 -m "lab 1 step 0 complete here"`
 
 Now, you can push and include your tags with the commits `git push --tags` or `git push origin --tags`
 
